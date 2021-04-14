@@ -1,0 +1,19 @@
+{
+  "extends": "stylelint-config-skyscanner",
+  "rules": {
+    "unit-disallowed-list": [
+      ["px"],
+      {
+        "ignoreProperties": {
+          "px": ["box-shadow"]
+        }
+      }
+    ],
+    "selector-pseudo-class-no-unknown": [
+      true,
+      {
+        "ignorePseudoClasses": ["global"]
+      }
+    ]
+  }
+}

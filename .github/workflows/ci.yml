@@ -1,0 +1,29 @@
+name: CI
+
+on:
+  push:
+    branches: [main]
+  pull_request:
+    branches: [main]
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+
+    steps:
+      # Checkout the repo
+      - uses: actions/checkout@v2
+        with:
+          ref: ${{ github.head_ref }}
+
+      - name: npm install
+        run: npm ci
+
+      - name: lint
+        run: npm run lint
+
+      - name: jest
+        run: npm run test
+      
+      - name: build
+        run: npm run build

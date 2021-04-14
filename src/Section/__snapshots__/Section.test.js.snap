@@ -1,0 +1,51 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Section tests renders correctly 1`] = `
+<DocumentFragment>
+  <div
+    class="Section"
+  >
+    <div>
+      <section
+        class="Section__heading"
+      >
+        <div
+          class="Section__heading-title"
+        >
+          <h2
+            class="bpk-text bpk-text--xl"
+          >
+            Section title
+          </h2>
+        </div>
+      </section>
+      <hr
+        class="Section__divider"
+      />
+    </div>
+    <section
+      class="Section__main"
+    >
+      <p>
+        Section content
+      </p>
+    </section>
+  </div>
+</DocumentFragment>
+`;
+
+exports[`Section tests renders correctly with no title 1`] = `
+<DocumentFragment>
+  <div
+    class="Section"
+  >
+    <section
+      class="Section__main"
+    >
+      <p>
+        Section content
+      </p>
+    </section>
+  </div>
+</DocumentFragment>
+`;
