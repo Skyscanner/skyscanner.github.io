@@ -33,7 +33,7 @@ const content = (
     <a href="https://skyscanner.net" className={c('Header__logo')}>
       <img
         src="https://content.skyscnr.com/m/3230a6e7077dfab/original/Skyscanner_Logo_LockupHorizontal_White_RGB.svg"
-        alt="Skyscanner logo"
+        alt="Skyscanner"
       />
     </a>
 

@@ -20,7 +20,7 @@ exports[`App renders corrrectly 1`] = `
               href="https://skyscanner.net"
             >
               <img
-                alt="Skyscanner logo"
+                alt="Skyscanner"
                 src="https://content.skyscnr.com/m/3230a6e7077dfab/original/Skyscanner_Logo_LockupHorizontal_White_RGB.svg"
               />
             </a>
