@@ -1,4 +1,4 @@
-# skyscanner.github.io
+# [skyscanner.github.io](https://skyscanner.github.io)
 
 ## Available Scripts
 
@@ -16,6 +16,12 @@ You will also see any lint errors in the console.
 
 Launches the test runner in the interactive watch mode.<br />
 See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+
+### `npm run build`
+
+Creates a production build of the site which you can then run to test what the site looks like live.
+
+This command is also used in CI to produce an output build which is deployed and used in Github pages.
 
 ## Contact
 - opensource@skyscanner.net
