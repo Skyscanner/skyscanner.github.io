@@ -23,7 +23,7 @@ const content = [
   {
     title: 'Security tools',
     content:
-      'Our security teams like to automate as much as possible. In fact, it’s one of their guiding principles. Here you’ll find projects to help you on cloud governance ([Cfripper](https://github.com/Skyscanner/cfripper)), serverless security scanning ([Lambdaguard](https://github.com/Skyscanner/LambdaGuard)), structured text security linter ([Whispers](https://github.com/Skyscanner/whispers)) and Sonarqube Secrets  plugin for Java and Javascript ([Sonarqube](https://github.com/Skyscanner/sonar-secrets)).',
+      'Our security teams like to automate as much as possible. In fact, it’s one of their guiding principles. Here you’ll find projects to help you on cloud governance ([CFRipper](https://github.com/Skyscanner/cfripper)), serverless security scanning ([Lambdaguard](https://github.com/Skyscanner/LambdaGuard)), structured text security linter ([Whispers](https://github.com/Skyscanner/whispers)) and Sonarqube Secrets  plugin for Java and Javascript ([Sonarqube](https://github.com/Skyscanner/sonar-secrets)).',
   },
   {
     title: 'Kubernetes tools',
