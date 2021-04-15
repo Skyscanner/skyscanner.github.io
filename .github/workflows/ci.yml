@@ -13,8 +13,6 @@ jobs:
     steps:
       # Checkout the repo
       - uses: actions/checkout@v2
-        with:
-          ref: ${{ github.head_ref }}
 
       - name: npm install
         run: npm ci
