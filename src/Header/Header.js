@@ -26,7 +26,7 @@ import STYLES from './Header.scss';
 
 const c = cssModules(STYLES);
 
-const TITLE_TEXT = `Skyscanner Open Source`;
+const TITLE_TEXT = `Open Source at Skyscanner`;
 
 const content = (
   <div>
