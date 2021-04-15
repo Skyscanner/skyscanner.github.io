@@ -93,7 +93,7 @@ exports[`App renders corrrectly 1`] = `
             <a
               href="https://github.com/Skyscanner/cfripper"
             >
-              Cfripper
+              CFRipper
             </a>
             ), serverless security scanning (
             <a
