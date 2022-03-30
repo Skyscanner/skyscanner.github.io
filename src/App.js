@@ -14,8 +14,6 @@
  * limitations under the License.
  */
 
-// @flow strict
-
 import React from 'react';
 import { cssModules } from 'bpk-react-utils';
 

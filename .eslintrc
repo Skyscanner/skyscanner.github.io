@@ -1,7 +1,6 @@
 {
   "parser": "babel-eslint",
-  "extends": ["skyscanner", "plugin:flowtype/recommended"],
-  "plugins": ["flowtype"],
+  "extends": ["skyscanner"],
   "env": {
     "browser": true,
     "jest": true
@@ -19,8 +18,6 @@
     "import/no-extraneous-dependencies": "off",
     // This is superceded by jsx-a11y/label-has-associated-control
     "jsx-a11y/label-has-for": "off",
-    // We want to keep prop-types alongside flow types so we relax this rule to allow us to specify defaults for
-    // required flow props
     "react/default-props-match-prop-types": [
       "error",
       {

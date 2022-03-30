@@ -14,10 +14,8 @@
  * limitations under the License.
  */
 
-// @flow strict
-
 import React from 'react';
-import BpkText from 'bpk-component-text';
+import BpkText, { TEXT_STYLES } from 'bpk-component-text';
 import ReactMarkdown from 'react-markdown';
 import { cssModules } from 'bpk-react-utils';
 
@@ -38,7 +36,7 @@ const Section = (props: Props) => {
         <div>
           <section className={c('Section__heading')}>
             <div className={c('Section__heading-title')}>
-              <BpkText tagName="h2" textStyle="xl">
+              <BpkText tagName="h2" textStyle={TEXT_STYLES.subheading}>
                 {title}
               </BpkText>
             </div>
@@ -47,7 +45,7 @@ const Section = (props: Props) => {
         </div>
       )}
       <section className={c('Section__main')}>
-        <ReactMarkdown source={content} />
+        <ReactMarkdown>{content}</ReactMarkdown>
       </section>
     </div>
   );

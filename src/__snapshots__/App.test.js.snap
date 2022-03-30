@@ -59,6 +59,8 @@ exports[`App renders corrrectly 1`] = `
           <p>
             We love Open Source at Skyscanner. Our engineers use it to run our infrastructure and services, making it possible to build Skyscanner’s online marketplace and bring the joy of travel to millions of people around the world every day.
           </p>
+          
+
           <p>
             We’re grateful to other companies who share their ways of working – it benefits our team, helping us learn and improve. That’s why we want to share our own software with you. Below, you can explore some of the projects we’ve created in areas like Security, Kubernetes, UI Design and SDLC. Please take a look around.
           </p>
@@ -75,7 +77,7 @@ exports[`App renders corrrectly 1`] = `
               class="Section__heading-title"
             >
               <h2
-                class="bpk-text bpk-text--xl"
+                class="bpk-text bpk-text--subheading"
               >
                 Security tools
               </h2>
@@ -128,7 +130,7 @@ exports[`App renders corrrectly 1`] = `
               class="Section__heading-title"
             >
               <h2
-                class="bpk-text bpk-text--xl"
+                class="bpk-text bpk-text--subheading"
               >
                 Kubernetes tools
               </h2>
@@ -144,6 +146,8 @@ exports[`App renders corrrectly 1`] = `
           <p>
             We use Kubernetes a lot at Skyscanner. It’s great for running containerised workloads in a resilient, secure and cost-effective way.
           </p>
+          
+
           <p>
             On top of contributing back to community tooling in the Kubernetes ecosystem, we've created several projects to help us improve our ways of working (
             <a
@@ -172,7 +176,7 @@ exports[`App renders corrrectly 1`] = `
               class="Section__heading-title"
             >
               <h2
-                class="bpk-text bpk-text--xl"
+                class="bpk-text bpk-text--subheading"
               >
                 UI/UX
               </h2>
@@ -188,9 +192,13 @@ exports[`App renders corrrectly 1`] = `
           <p>
             Backpack is our design system. We like to describe it as the codification of design at Skyscanner. It’s a collection of design resources, reusable components and guidelines for creating our products with ease and consistency.
           </p>
+          
+
           <p>
             Backpack empowers our people, giving them the tools to quickly deliver amazing work that’s on-brand, highly accessible and includes things like theming, RTL and dark mode support.
           </p>
+          
+
           <p>
             Our design system supports four main platforms: 
             <a
@@ -231,7 +239,7 @@ exports[`App renders corrrectly 1`] = `
               class="Section__heading-title"
             >
               <h2
-                class="bpk-text bpk-text--xl"
+                class="bpk-text bpk-text--subheading"
               >
                 Developer Tools and Libraries
               </h2>
@@ -253,6 +261,8 @@ exports[`App renders corrrectly 1`] = `
             </a>
             ).
           </p>
+          
+
           <p>
             <a
               href="https://github.com/Skyscanner/turbolift"
@@ -261,6 +271,8 @@ exports[`App renders corrrectly 1`] = `
             </a>
              allows developers to create and manage PRs on a high number of repositories, eliminating the admin burden of running change at scale.
           </p>
+          
+
           <p>
             Also we have some linters to help us with code quality and styling (
             <a

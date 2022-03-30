@@ -14,10 +14,8 @@
  * limitations under the License.
  */
 
-// @flow strict
-
 import React from 'react';
-import BpkText, { WEIGHT_STYLES } from 'bpk-component-text';
+import BpkText, { TEXT_STYLES } from 'bpk-component-text';
 import { cssModules } from 'bpk-react-utils';
 import BpkBreakpoint, { BREAKPOINTS } from 'bpk-component-breakpoint';
 import { BpkContentBubble } from 'bpk-component-flare';
@@ -41,8 +39,7 @@ const content = (
       <BpkBreakpoint query={BREAKPOINTS.ABOVE_MOBILE}>
         <BpkText
           tagName="h1"
-          textStyle="xxl"
-          weight={WEIGHT_STYLES.bold}
+          textStyle={TEXT_STYLES.xxl}
           className={c('Header__heading')}
         >
           {TITLE_TEXT}
@@ -52,8 +49,7 @@ const content = (
       <BpkBreakpoint query={BREAKPOINTS.MOBILE}>
         <BpkText
           tagName="h1"
-          textStyle="xl"
-          weight={WEIGHT_STYLES.bold}
+          textStyle={TEXT_STYLES.heading3}
           className={c('Header__heading')}
         >
           {TITLE_TEXT}

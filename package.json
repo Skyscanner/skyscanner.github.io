@@ -3,13 +3,14 @@
   "version": "0.1.0",
   "private": true,
   "dependencies": {
-    "bpk-component-breakpoint": "^2.0.117",
-    "bpk-component-flare": "^1.0.118",
-    "bpk-component-text": "^3.1.50",
-    "bpk-mixins": "^20.1.31",
-    "bpk-stylesheets": "^6.0.81",
+    "bpk-component-breakpoint": "^3.1.1",
+    "bpk-component-flare": "^2.1.2",
+    "bpk-component-text": "^6.1.2",
+    "bpk-mixins": "^27.0.0",
+    "bpk-stylesheets": "^7.1.25",
     "react": "^16.13.1",
-    "react-dom": "^16.13.1"
+    "react-dom": "^16.13.1",
+    "react-markdown": "^6.0.3"
   },
   "homepage": "https://skyscanner.github.io",
   "scripts": {
@@ -36,14 +37,11 @@
     ]
   },
   "devDependencies": {
-    "@skyscanner/backpack-react-scripts": "^9.0.3",
+    "@skyscanner/backpack-react-scripts": "^9.6.1",
     "@testing-library/react": "^11.2.6",
-    "eslint-config-skyscanner": "^9.0.0",
-    "eslint-plugin-flowtype": "^5.6.0",
     "eslint_d": "^10.0.4",
+    "eslint-config-skyscanner": "^9.0.0",
     "husky": "^4.2.5",
-    "react-icons": "^4.2.0",
-    "react-markdown": "^5.0.3",
     "stylelint-config-skyscanner": "^3.0.4"
   },
   "husky": {
