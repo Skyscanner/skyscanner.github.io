@@ -15,6 +15,7 @@
  */
 
 import React from 'react';
+
 import BpkText, { TEXT_STYLES } from 'bpk-component-text';
 import { cssModules } from 'bpk-react-utils';
 import BpkBreakpoint, { BREAKPOINTS } from 'bpk-component-breakpoint';

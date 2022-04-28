@@ -15,8 +15,10 @@
  */
 
 import React from 'react';
-import BpkText, { TEXT_STYLES } from 'bpk-component-text';
+
 import ReactMarkdown from 'react-markdown';
+
+import BpkText, { TEXT_STYLES } from 'bpk-component-text';
 import { cssModules } from 'bpk-react-utils';
 
 import STYLES from './Section.scss';
@@ -29,7 +31,7 @@ type Props = {
 };
 
 const Section = (props: Props) => {
-  const { title, content } = props;
+  const { content, title } = props;
   return (
     <div className={c('Section')}>
       {title && (

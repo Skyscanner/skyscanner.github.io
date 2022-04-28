@@ -14,12 +14,12 @@
  * limitations under the License.
  */
 
-@import '../tokens';
+@import '../tokens.scss';
 
 .Section {
   margin-bottom: 1.5rem;
   /* stylelint-disable-next-line scale-unlimited/declaration-strict-value */
-  line-height: 1.3rem;
+  line-height: 1.3rem; /* stylelint-disable-line backpack/use-typography-styles */
   text-align: left;
 
   &__divider {

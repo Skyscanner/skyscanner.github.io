@@ -40,10 +40,10 @@ If you are adding a new file it should have a header like this:
 
 skyscanner.github.io is developed using Node, using the following versions:
 
-* `LTS/Erbium` (Node ^12.13.0)
-* `^6.14.2` (npm)
+* `LTS/gallium` (Node ^16.15.0)
+* `^8.5.5` (npm)
 
-To install npm, use `npm install --global npm@^6.14.2`.
+To install npm, use `npm install --global npm@^8.5.5`.
 
 ### Code style
 
