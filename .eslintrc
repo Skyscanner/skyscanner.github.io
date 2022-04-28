@@ -1,6 +1,6 @@
 {
   "parser": "babel-eslint",
-  "extends": ["skyscanner"],
+  "extends": ["@skyscanner/skyscanner"],
   "env": {
     "browser": true,
     "jest": true

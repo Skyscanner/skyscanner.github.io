@@ -3,11 +3,12 @@
   "version": "0.1.0",
   "private": true,
   "dependencies": {
-    "bpk-component-breakpoint": "^3.1.1",
-    "bpk-component-flare": "^2.1.2",
-    "bpk-component-text": "^6.1.2",
-    "bpk-mixins": "^27.0.0",
-    "bpk-stylesheets": "^7.1.25",
+    "bpk-component-breakpoint": "^3.1.6",
+    "bpk-component-flare": "^2.1.7",
+    "bpk-component-text": "^7.0.0",
+    "bpk-mixins": "^29.0.0",
+    "bpk-react-utils": "^4.1.1",
+    "bpk-stylesheets": "^7.1.31",
     "react": "^16.13.1",
     "react-dom": "^16.13.1",
     "react-markdown": "^6.0.3"
@@ -18,8 +19,8 @@
     "build": "react-scripts build",
     "test": "react-scripts test",
     "eject": "react-scripts eject",
-    "lint:sass": "stylelint '**/*.scss' --syntax scss",
-    "lint:sass:fix": "stylelint '**/*.scss' --syntax scss --fix",
+    "lint:sass": "stylelint '**/*.scss'",
+    "lint:sass:fix": "stylelint '**/*.scss' --fix",
     "lint:js": "eslint . --ext .js,.jsx",
     "lint:js:fix": "eslint . --ext .js,.jsx --fix",
     "lint": "npm run lint:js && npm run lint:sass"
@@ -37,12 +38,11 @@
     ]
   },
   "devDependencies": {
-    "@skyscanner/backpack-react-scripts": "^9.6.1",
+    "@skyscanner/backpack-react-scripts": "^10.0.1",
+    "@skyscanner/stylelint-config-skyscanner": "^6.0.0",
     "@testing-library/react": "^11.2.6",
     "eslint_d": "^10.0.4",
-    "eslint-config-skyscanner": "^9.0.0",
-    "husky": "^4.2.5",
-    "stylelint-config-skyscanner": "^3.0.4"
+    "husky": "^4.2.5"
   },
   "husky": {
     "hooks": {

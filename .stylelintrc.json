@@ -1,5 +1,5 @@
 {
-  "extends": "stylelint-config-skyscanner",
+  "extends": "@skyscanner/stylelint-config-skyscanner",
   "rules": {
     "unit-disallowed-list": [
       ["px"],
