@@ -1,0 +1,104 @@
+{
+  "errors": [],
+  "warnings": [],
+  "hash": "074af92011f9a89b349f",
+  "publicPath": "/",
+  "outputPath": "/home/runner/work/skyscanner.github.io/skyscanner.github.io/build",
+  "assetsByChunkName": {
+    "main": [
+      "static/css/main.3dd81264.css",
+      "static/js/main.3727d760.js",
+      "static/js/main.3727d760.js.map"
+    ]
+  },
+  "assets": [
+    {
+      "name": "static/css/main.3dd81264.css",
+      "size": 14386,
+      "chunks": [
+        0
+      ],
+      "chunkNames": [
+        "main"
+      ],
+      "info": {
+        "immutable": true
+      },
+      "emitted": false
+    },
+    {
+      "name": "static/css/main.3dd81264.css.map",
+      "size": 157073,
+      "chunks": [],
+      "chunkNames": [],
+      "info": {},
+      "emitted": false
+    },
+    {
+      "name": "static/js/main.3727d760.js",
+      "size": 301726,
+      "chunks": [
+        0
+      ],
+      "chunkNames": [
+        "main"
+      ],
+      "info": {
+        "immutable": true,
+        "minimized": true,
+        "related": {
+          "license": "static/js/main.3727d760.js.LICENSE.txt"
+        }
+      },
+      "emitted": false
+    },
+    {
+      "name": "static/js/main.3727d760.js.LICENSE.txt",
+      "size": 1691,
+      "chunks": [],
+      "chunkNames": [],
+      "info": {},
+      "emitted": false
+    },
+    {
+      "name": "static/js/main.3727d760.js.map",
+      "size": 1068469,
+      "chunks": [
+        0
+      ],
+      "chunkNames": [
+        "main"
+      ],
+      "info": {
+        "development": true
+      },
+      "emitted": false
+    }
+  ],
+  "filteredAssets": 0,
+  "namedChunkGroups": {
+    "main": {
+      "chunks": [
+        0
+      ],
+      "assets": [
+        "static/css/main.3dd81264.css",
+        "static/js/main.3727d760.js",
+        "static/js/main.3727d760.js.map"
+      ],
+      "children": {},
+      "childAssets": {}
+    }
+  },
+  "generator": "loadable-components",
+  "chunks": [
+    {
+      "id": 0,
+      "files": [
+        "static/css/main.3dd81264.css",
+        "static/js/main.3727d760.js",
+        "static/js/main.3727d760.js.map"
+      ]
+    }
+  ]
+}
