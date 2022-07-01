@@ -16,10 +16,14 @@
 
 import React from 'react';
 
-import BpkText, { TEXT_STYLES } from 'bpk-component-text';
-import { cssModules } from 'bpk-react-utils';
-import BpkBreakpoint, { BREAKPOINTS } from 'bpk-component-breakpoint';
-import { BpkContentBubble } from 'bpk-component-flare';
+import BpkText, {
+  TEXT_STYLES,
+} from '@skyscanner/backpack-web/bpk-component-text';
+import { cssModules } from '@skyscanner/backpack-web/bpk-react-utils';
+import BpkBreakpoint, {
+  BREAKPOINTS,
+} from '@skyscanner/backpack-web/bpk-component-breakpoint';
+import { BpkContentBubble } from '@skyscanner/backpack-web/bpk-component-flare';
 
 import STYLES from './Header.scss';
 

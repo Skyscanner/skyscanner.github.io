@@ -18,8 +18,10 @@ import React from 'react';
 
 import ReactMarkdown from 'react-markdown';
 
-import BpkText, { TEXT_STYLES } from 'bpk-component-text';
-import { cssModules } from 'bpk-react-utils';
+import BpkText, {
+  TEXT_STYLES,
+} from '@skyscanner/backpack-web/bpk-component-text';
+import { cssModules } from '@skyscanner/backpack-web/bpk-react-utils';
 
 import STYLES from './Section.scss';
 

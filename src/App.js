@@ -16,7 +16,7 @@
 
 import React from 'react';
 
-import { cssModules } from 'bpk-react-utils';
+import { cssModules } from '@skyscanner/backpack-web/bpk-react-utils';
 
 import Header from './Header/Header';
 import Section from './Section/Section';
@@ -31,7 +31,11 @@ const App = () => (
     <Header />
     <main className={c('App__main')}>
       {content.map((section) => (
-        <Section title={section.title} content={section.content} />
+        <Section
+          key={section.title}
+          title={section.title}
+          content={section.content}
+        />
       ))}
     </main>
   </div>
