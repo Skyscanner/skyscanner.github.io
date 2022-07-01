@@ -16,8 +16,8 @@
     "build": "react-scripts build",
     "test": "react-scripts test",
     "eject": "react-scripts eject",
-    "lint:sass": "stylelint '**/*.scss'",
-    "lint:sass:fix": "stylelint '**/*.scss' --fix",
+    "lint:sass": "stylelint 'src/**/*.scss'",
+    "lint:sass:fix": "stylelint 'src/**/*.scss' --fix",
     "lint:js": "eslint . --ext .js,.jsx",
     "lint:js:fix": "eslint . --ext .js,.jsx --fix",
     "lint": "npm run lint:js && npm run lint:sass"
@@ -35,11 +35,12 @@
     ]
   },
   "devDependencies": {
-    "@skyscanner/backpack-react-scripts": "^10.0.1",
+    "@skyscanner/backpack-react-scripts": "^10.0.2",
     "@skyscanner/stylelint-config-skyscanner": "^6.0.0",
     "@testing-library/react": "^11.2.6",
     "eslint_d": "^10.0.4",
-    "husky": "^4.2.5"
+    "husky": "^4.2.5",
+    "postcss": "^8.4.14"
   },
   "husky": {
     "hooks": {
