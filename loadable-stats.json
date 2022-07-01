@@ -1,20 +1,20 @@
 {
   "errors": [],
   "warnings": [],
-  "hash": "074af92011f9a89b349f",
+  "hash": "762c37b767eb7abe6091",
   "publicPath": "/",
   "outputPath": "/home/runner/work/skyscanner.github.io/skyscanner.github.io/build",
   "assetsByChunkName": {
     "main": [
-      "static/css/main.3dd81264.css",
-      "static/js/main.3727d760.js",
-      "static/js/main.3727d760.js.map"
+      "static/css/main.306a3901.css",
+      "static/js/main.cc7774ef.js",
+      "static/js/main.cc7774ef.js.map"
     ]
   },
   "assets": [
     {
-      "name": "static/css/main.3dd81264.css",
-      "size": 14386,
+      "name": "static/css/main.306a3901.css",
+      "size": 14035,
       "chunks": [
         0
       ],
@@ -27,16 +27,16 @@
       "emitted": false
     },
     {
-      "name": "static/css/main.3dd81264.css.map",
-      "size": 157073,
+      "name": "static/css/main.306a3901.css.map",
+      "size": 159347,
       "chunks": [],
       "chunkNames": [],
       "info": {},
       "emitted": false
     },
     {
-      "name": "static/js/main.3727d760.js",
-      "size": 301726,
+      "name": "static/js/main.cc7774ef.js",
+      "size": 307089,
       "chunks": [
         0
       ],
@@ -47,13 +47,13 @@
         "immutable": true,
         "minimized": true,
         "related": {
-          "license": "static/js/main.3727d760.js.LICENSE.txt"
+          "license": "static/js/main.cc7774ef.js.LICENSE.txt"
         }
       },
       "emitted": false
     },
     {
-      "name": "static/js/main.3727d760.js.LICENSE.txt",
+      "name": "static/js/main.cc7774ef.js.LICENSE.txt",
       "size": 1691,
       "chunks": [],
       "chunkNames": [],
@@ -61,8 +61,8 @@
       "emitted": false
     },
     {
-      "name": "static/js/main.3727d760.js.map",
-      "size": 1068469,
+      "name": "static/js/main.cc7774ef.js.map",
+      "size": 1079927,
       "chunks": [
         0
       ],
@@ -82,9 +82,9 @@
         0
       ],
       "assets": [
-        "static/css/main.3dd81264.css",
-        "static/js/main.3727d760.js",
-        "static/js/main.3727d760.js.map"
+        "static/css/main.306a3901.css",
+        "static/js/main.cc7774ef.js",
+        "static/js/main.cc7774ef.js.map"
       ],
       "children": {},
       "childAssets": {}
@@ -95,9 +95,9 @@
     {
       "id": 0,
       "files": [
-        "static/css/main.3dd81264.css",
-        "static/js/main.3727d760.js",
-        "static/js/main.3727d760.js.map"
+        "static/css/main.306a3901.css",
+        "static/js/main.cc7774ef.js",
+        "static/js/main.cc7774ef.js.map"
       ]
     }
   ]
