@@ -1,14 +1,14 @@
 {
   "errors": [],
   "warnings": [],
-  "hash": "762c37b767eb7abe6091",
+  "hash": "a3664a360622beb3a920",
   "publicPath": "/",
   "outputPath": "/home/runner/work/skyscanner.github.io/skyscanner.github.io/build",
   "assetsByChunkName": {
     "main": [
       "static/css/main.306a3901.css",
-      "static/js/main.cc7774ef.js",
-      "static/js/main.cc7774ef.js.map"
+      "static/js/main.293a6ce5.js",
+      "static/js/main.293a6ce5.js.map"
     ]
   },
   "assets": [
@@ -35,7 +35,7 @@
       "emitted": false
     },
     {
-      "name": "static/js/main.cc7774ef.js",
+      "name": "static/js/main.293a6ce5.js",
       "size": 307089,
       "chunks": [
         0
@@ -47,13 +47,13 @@
         "immutable": true,
         "minimized": true,
         "related": {
-          "license": "static/js/main.cc7774ef.js.LICENSE.txt"
+          "license": "static/js/main.293a6ce5.js.LICENSE.txt"
         }
       },
       "emitted": false
     },
     {
-      "name": "static/js/main.cc7774ef.js.LICENSE.txt",
+      "name": "static/js/main.293a6ce5.js.LICENSE.txt",
       "size": 1691,
       "chunks": [],
       "chunkNames": [],
@@ -61,8 +61,8 @@
       "emitted": false
     },
     {
-      "name": "static/js/main.cc7774ef.js.map",
-      "size": 1079927,
+      "name": "static/js/main.293a6ce5.js.map",
+      "size": 1089142,
       "chunks": [
         0
       ],
@@ -83,8 +83,8 @@
       ],
       "assets": [
         "static/css/main.306a3901.css",
-        "static/js/main.cc7774ef.js",
-        "static/js/main.cc7774ef.js.map"
+        "static/js/main.293a6ce5.js",
+        "static/js/main.293a6ce5.js.map"
       ],
       "children": {},
       "childAssets": {}
@@ -96,8 +96,8 @@
       "id": 0,
       "files": [
         "static/css/main.306a3901.css",
-        "static/js/main.cc7774ef.js",
-        "static/js/main.cc7774ef.js.map"
+        "static/js/main.293a6ce5.js",
+        "static/js/main.293a6ce5.js.map"
       ]
     }
   ]
