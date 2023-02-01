@@ -97,12 +97,6 @@ exports[`App renders corrrectly 1`] = `
             >
               CFRipper
             </a>
-            ), serverless security scanning (
-            <a
-              href="https://github.com/Skyscanner/LambdaGuard"
-            >
-              Lambdaguard
-            </a>
             ), structured text security linter (
             <a
               href="https://github.com/Skyscanner/whispers"
