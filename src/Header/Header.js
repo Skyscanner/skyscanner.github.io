@@ -14,8 +14,6 @@
  * limitations under the License.
  */
 
-import React from 'react';
-
 import BpkText, {
   TEXT_STYLES,
 } from '@skyscanner/backpack-web/bpk-component-text';

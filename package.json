@@ -3,9 +3,9 @@
   "version": "0.1.0",
   "private": true,
   "dependencies": {
-    "@skyscanner/backpack-web": "^12.0.0",
-    "bpk-mixins": "^32.0.2",
-    "bpk-stylesheets": "^7.2.12",
+    "@skyscanner/backpack-web": "^23.0.0",
+    "bpk-mixins": "^40.3.1",
+    "bpk-stylesheets": "^9.0.10",
     "react": "^17.0.2",
     "react-dom": "^17.0.2",
     "react-markdown": "^6.0.3"
@@ -35,8 +35,8 @@
     ]
   },
   "devDependencies": {
-    "@skyscanner/backpack-react-scripts": "^10.0.4",
-    "@skyscanner/stylelint-config-skyscanner": "^6.0.0",
+    "@skyscanner/backpack-react-scripts": "^10.4.0",
+    "@skyscanner/stylelint-config-skyscanner": "^7.1.0",
     "@testing-library/react": "^12.1.5",
     "eslint_d": "^12.2.0",
     "husky": "^8.0.1",
