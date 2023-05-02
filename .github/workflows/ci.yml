@@ -16,7 +16,7 @@ jobs:
 
       - uses: actions/setup-node@v3
         with:
-          node-version-file: "lts/gallium"
+          node-version: "lts/gallium"
           registry-url: 'https://registry.npmjs.org'
 
       - name: npm install
