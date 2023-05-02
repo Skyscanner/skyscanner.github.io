@@ -14,8 +14,6 @@
  * limitations under the License.
  */
 
-import React from 'react';
-
 import { cssModules } from '@skyscanner/backpack-web/bpk-react-utils';
 
 import Header from './Header/Header';
