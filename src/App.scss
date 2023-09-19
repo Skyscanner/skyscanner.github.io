@@ -18,21 +18,21 @@
 
 /* stylelint-disable-next-line selector-max-type */
 body {
-  background-color: $bpk-color-white;
+  background-color: $bpk-canvas-day;
 }
 
 .App {
   &__main {
-    padding: $bpk-spacing-xxl;
+    padding: bpk-spacing-xxl();
 
     @include container;
 
     @include bpk-breakpoint-mobile {
-      padding: $bpk-spacing-md;
+      padding: bpk-spacing-base();
     }
   }
 
   &__text {
-    margin-bottom: $bpk-spacing-sm;
+    margin-bottom: bpk-spacing-base();
   }
 }

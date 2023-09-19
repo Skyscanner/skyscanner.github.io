@@ -14,9 +14,9 @@
  * limitations under the License.
  */
 
-import 'bpk-stylesheets/base';
-import 'bpk-stylesheets/base.css';
-import 'bpk-stylesheets/font.css';
+import '@skyscanner/backpack-web/bpk-stylesheets/base';
+import '@skyscanner/backpack-web/bpk-stylesheets/base.css';
+import '@skyscanner/backpack-web/bpk-stylesheets/font.css';
 
 import { createElement } from 'react';
 import ReactDOM from 'react-dom';

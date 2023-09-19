@@ -27,12 +27,12 @@
 
   &__logo {
     img {
-      width: $bpk-spacing-xl * 5;
+      width: bpk-spacing-xxl() * 4;
     }
   }
 
   &__heading {
-    margin-bottom: $bpk-spacing-sm;
+    margin-bottom: bpk-spacing-base();
   }
 
   &__flare {
@@ -40,9 +40,9 @@
     max-width: none;
     height: 20rem;
     margin-left: calc(-50vw + 50%);
-    background-color: $bpk-color-sky-blue;
+    background-color: $bpk-core-accent-day;
     background-image: url('https://backpack.github.io/hero_155227bb4ce1b6bb859a04151cb1618c.png');
-    color: $bpk-color-white;
+    color: $bpk-text-primary-inverse-day;
 
     @include bpk-breakpoint-mobile {
       height: 10rem;

@@ -19,7 +19,6 @@ import { cssModules } from '@skyscanner/backpack-web/bpk-react-utils';
 import Header from './Header/Header';
 import Section from './Section/Section';
 import content from './content';
-
 import STYLES from './App.scss';
 
 const c = cssModules(STYLES);

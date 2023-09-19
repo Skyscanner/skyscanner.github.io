@@ -23,20 +23,20 @@
   text-align: left;
 
   &__divider {
-    margin-top: $bpk-spacing-md;
-    margin-bottom: $bpk-spacing-md;
+    margin-top: bpk-spacing-base();
+    margin-bottom: bpk-spacing-base();
     border: 0;
-    border-top: $bpk-one-pixel-rem solid $bpk-color-sky-gray-tint-06;
+    border-top: $bpk-one-pixel-rem solid $bpk-surface-highlight-day;
   }
 
   &__heading-title {
     display: flex;
-    margin-bottom: $bpk-spacing-xs;
+    margin-bottom: bpk-spacing-md();
     justify-content: space-between;
   }
 
   &__heading {
-    margin-bottom: $bpk-spacing-sm;
+    margin-bottom: bpk-spacing-base();
   }
 
   &__main {

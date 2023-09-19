@@ -15,7 +15,6 @@
  */
 
 import ReactMarkdown from 'react-markdown';
-
 import BpkText, {
   TEXT_STYLES,
 } from '@skyscanner/backpack-web/bpk-component-text';
@@ -25,12 +24,8 @@ import STYLES from './Section.scss';
 
 const c = cssModules(STYLES);
 
-type Props = {
-  title?: string,
-  content: string,
-};
-
-const Section = (props: Props) => {
+const Section = (props) => {
+  // eslint-disable-next-line react/prop-types
   const { content, title } = props;
   return (
     <div className={c('Section')}>

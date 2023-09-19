@@ -1,6 +1,7 @@
 {
-  "parser": "babel-eslint",
-  "extends": ["@skyscanner/skyscanner"],
+  "extends": [
+    "@skyscanner/eslint-config-skyscanner"
+  ],
   "env": {
     "browser": true,
     "jest": true
@@ -8,28 +9,53 @@
   "settings": {
     "import/resolver": {
       "node": {
-        "extensions": [".js", ".jsx", ".json"]
+        "extensions": [
+          ".js",
+          ".jsx",
+          ".ts",
+          ".tsx",
+          ".json"
+        ]
       }
     }
   },
   "rules": {
-    "prettier/prettier": "error",
     "react/jsx-filename-extension": "off",
     "import/no-extraneous-dependencies": "off",
+    // TODO: Re-enable the following 7 rules
+    "prettier/prettier": "off",
+    "no-restricted-exports": "off",
+    "class-methods-use-this": "off",
+    "react/jsx-no-constructed-context-values": "off",
+    "react/no-unused-class-component-methods": "off",
+    "no-promise-executor-return": "off",
+    "import/no-import-module-exports": "off",
+    // We override the eslint-config-skyscanner rule here as within Backpack
+    // we need certain order imports otherwise it will break components like the calendar.
+    "import/order": [
+      "error",
+      {
+        "groups": [
+          "builtin",
+          "external",
+          "parent",
+          "sibling",
+          "index"
+        ],
+        "newlines-between": "always"
+      }
+    ],
     // This is superceded by jsx-a11y/label-has-associated-control
     "jsx-a11y/label-has-for": "off",
+    // We want to keep prop-types alongside typescript types so we relax this rule to allow us to specify defaults for
+    // required typescript props
     "react/default-props-match-prop-types": [
       "error",
       {
         "allowRequiredDefaults": true
       }
     ],
-    "react/require-default-props": [
-      "error",
-      {
-        "forbidDefaultForRequired": false
-      }
-    ],
+    "react/require-default-props": "off",
     "react/prefer-stateless-function": [
       "error",
       {
@@ -52,6 +78,8 @@
           "render"
         ]
       }
-    ]
+    ],
+    // Temp setting this to warn whilst migration to TS is in progress.
+    "no-undef": "warn"
   }
 }

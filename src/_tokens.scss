@@ -14,7 +14,7 @@
  * limitations under the License.
  */
 
-@import '~bpk-mixins/index.scss';
+@import '~@skyscanner/backpack-web/bpk-mixins/index.scss';
 
 @mixin container {
   max-width: $bpk-breakpoint-desktop;
