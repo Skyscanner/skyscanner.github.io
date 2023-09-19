@@ -16,7 +16,7 @@ jobs:
 
       - uses: actions/setup-node@v3
         with:
-          node-version: "lts/gallium"
+          node-version: "lts/hydrogen"
           registry-url: 'https://registry.npmjs.org'
 
       - name: npm install
