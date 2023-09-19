@@ -2,6 +2,10 @@
   "name": "skyscanner.github.io",
   "version": "0.1.0",
   "private": true,
+  "engines": {
+    "node": "^18.16.0",
+    "npm": "^9.5.1"
+  },
   "dependencies": {
     "@skyscanner/backpack-web": "^29.2.0",
     "react": "^17.0.2",
