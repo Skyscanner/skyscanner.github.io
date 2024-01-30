@@ -7,16 +7,17 @@
     "npm": "^9.5.1"
   },
   "dependencies": {
-    "@skyscanner/backpack-web": "^29.2.0",
+    "@skyscanner/backpack-web": "^31.9.1",
     "react": "^17.0.2",
     "react-dom": "^17.0.2",
-    "react-markdown": "^6.0.3"
+    "react-markdown": "^6.0.3",
+    "react-transition-group": "^4.4.5"
   },
   "homepage": "https://skyscanner.github.io",
   "scripts": {
-    "start": "NODE_OPTIONS=--openssl-legacy-provider react-scripts start",
-    "build": "NODE_OPTIONS=--openssl-legacy-provider react-scripts build",
-    "test": "NODE_OPTIONS=--openssl-legacy-provider react-scripts test",
+    "start": "react-scripts start",
+    "build": "react-scripts build",
+    "test": "react-scripts test",
     "lint:sass": "stylelint 'src/**/*.scss'",
     "lint:sass:fix": "stylelint 'src/**/*.scss' --fix",
     "lint:js": "eslint . --ext .js,.jsx",
@@ -42,10 +43,5 @@
     "eslint_d": "^12.2.1",
     "husky": "^8.0.3",
     "postcss": "^8.4.31"
-  },
-  "backpack-react-scripts": {
-    "babelIncludePrefixes": [
-      "@skyscanner/backpack-web"
-    ]
   }
 }
