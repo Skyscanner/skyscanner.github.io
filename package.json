@@ -36,7 +36,7 @@
     ]
   },
   "devDependencies": {
-    "@skyscanner/backpack-react-scripts": "^10.5.0",
+    "@skyscanner/backpack-react-scripts": "^11.0.1",
     "@skyscanner/stylelint-config-skyscanner": "^10.2.0",
     "@testing-library/react": "^12.1.5",
     "eslint_d": "^12.2.1",
