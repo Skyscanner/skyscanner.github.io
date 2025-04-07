@@ -1,5 +1,9 @@
 name: CI
 
+permissions:
+  statuses: write
+  pages: write
+
 on:
   push:
     branches: [main]
