@@ -43,7 +43,7 @@
     "@testing-library/react": "^16.2.0",
     "eslint_d": "^14.3.0",
     "husky": "^9.1.7",
-    "postcss": "^8.5.3",
+    "postcss": "^8.5.4",
     "sass-embedded": "^1.86.0"
   }
 }
