@@ -1,3 +1,5 @@
+# Project is archived as right now the project no longer provides the value as it isn't viewed by users. If we decide to bring this back in the future we can. Reach out to Ollie Curtis and we can bring this back
+
 # [skyscanner.github.io](https://skyscanner.github.io)
 
 ## Available Scripts
